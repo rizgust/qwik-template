@@ -1,5 +1,5 @@
 import { component$, Slot } from '@builder.io/qwik';
-import {ColorTypes} from '../../types/types';
+import {ColorTypes} from '../../utils/types';
 
 interface BadgeProps {
   color?: ColorTypes;

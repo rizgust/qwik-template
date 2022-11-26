@@ -1,5 +1,5 @@
 import { component$, Slot } from '@builder.io/qwik';
-import { Size } from '../../types/types';
+import { Size } from '../../utils/types';
 
 interface AvatarProps {
   size?: Size;

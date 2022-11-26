@@ -1,5 +1,5 @@
 import {component$, Slot} from "@builder.io/qwik";
-import {ResponsiveSize} from "../../types/types";
+import {ResponsiveSize} from "../../utils/types";
 
 interface KbdProps {
   size?: ResponsiveSize;
