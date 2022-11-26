@@ -18,9 +18,9 @@
     "lint": "eslint \"src/**/*.ts*\"",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
-    "qwik": "qwik",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "qwik": "qwik"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
@@ -37,14 +37,20 @@
     "@types/node": "latest",
     "@typescript-eslint/eslint-plugin": "5.43.0",
     "@typescript-eslint/parser": "5.43.0",
+    "autoprefixer": "10.4.11",
     "babel-loader": "^8.3.0",
     "eslint": "8.28.0",
     "eslint-plugin-qwik": "0.14.1",
     "eslint-plugin-storybook": "^0.6.7",
     "node-fetch": "3.3.0",
+    "postcss": "^8.4.16",
     "prettier": "2.7.1",
+    "tailwindcss": "^3.1.8",
     "typescript": "4.9.3",
     "vite": "3.2.4",
     "vite-tsconfig-paths": "3.5.0"
+  },
+  "dependencies": {
+    "daisyui": "^2.42.1"
   }
 }
