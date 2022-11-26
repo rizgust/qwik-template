@@ -1,5 +1,5 @@
 import { component$ } from '@builder.io/qwik';
-import { MessageTypes, VerticalOptions, HorizontalOptions } from '../../utils/types';
+import { MessageTypes, VerticalOptions, HorizontalOptions } from '../__utils/types';
 
 interface ToastProps {
   message: string;

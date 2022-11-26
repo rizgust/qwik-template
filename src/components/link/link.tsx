@@ -1,5 +1,5 @@
 import {component$, Slot} from '@builder.io/qwik';
-import {ColorTypes} from "../../utils/types";
+import {ColorTypes} from "../__utils/types";
 
 interface LinkProps {
   class?: string;

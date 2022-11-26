@@ -1,5 +1,5 @@
 import {component$, Slot} from '@builder.io/qwik';
-import {ColorTypes, Positions} from "../../utils/types";
+import {ColorTypes, Positions} from "../__utils/types";
 
 interface TooltipProps {
   class?: string;
