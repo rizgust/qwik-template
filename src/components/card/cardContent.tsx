@@ -7,8 +7,12 @@ interface CardContentProps {
 
 export const CardContent = component$((props : CardContentProps) => {
   return (
-    <div {...props}>
-      <Slot />
+    <div className={`card px-6 py-4 w-96 bg-base-100 shadow-xl 
+      ${props.className}
+      `}>
+      <div className="p-6">
+        <Slot />
+      </div>
     </div>
   );
 });
