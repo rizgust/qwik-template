@@ -19,7 +19,6 @@
 body {
   background-color: #fafafa;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 20px 20px 40px 20px;
 }
 
 main {
@@ -42,7 +41,13 @@ h2 {
 
 section {
   padding: 20px;
-  border-bottom: 10px solid var(--qwik-dark-blue);
+}
+
+section-center {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
